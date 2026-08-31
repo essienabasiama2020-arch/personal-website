@@ -1,0 +1,47 @@
+<html>
+<body>
+	<div id="title">
+		<h1>Welcome to Abasiama's web page</h1>
+		<p>This is where dreams come true</p>
+		<button onclick="makeDreamComeTrue()">Make dreams come true</button>
+	</div>
+</body>
+</html>
+
+<style>
+
+body {
+
+	background-image: url("https://www.loveyourlandscape.org/media/83414/r-youngblood-co.jpg");
+	background-size: cover;
+
+}
+
+h1 {
+	color: blue;
+}
+
+button:hover {
+	background-color: green;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#title {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+</style>
+
+<script>
+
+function makeDreamComeTrue() {
+	alert("Dream has come true");
+	document.body.style.background = 'url("https://images.stockcake.com/public/0/4/6/0462c37c-1726-4377-99a2-0b194b1473b6_large/intense-fire-explosion-	stockcake.jpg")';
+	document.body.style.backgroundSize = "cover";
+	document.getElementById("title").style.visibility = "hidden";
+}
+
+</script>
