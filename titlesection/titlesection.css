@@ -1,4 +1,4 @@
-h1 {
+h1, h2, h3 {
 	color: blue;
 }
 
@@ -11,4 +11,6 @@ button:hover {
 #title {
 	text-align: center;
 	padding-top: 200px;
+	background-image: url("../Images/sandor-banyai-aGcUz9Bjgd0-unsplash.jpg");
+	background-position: center top;
 }
